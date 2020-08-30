@@ -1,0 +1,22 @@
+body{
+    margin:50px;
+    padding:0;
+}
+
+h2{
+    color: black;
+    font-size: 18px;
+    animation: spin 3s infinite;
+    animation-fill-mode: forwards;
+    transform-origin: 0 2%;
+}
+
+@keyframes spin{
+    0% {
+        transform: rotateZ(0);
+        color: black;
+    } 100% {
+        transform: rotateZ(360deg);
+        color:red;
+    }
+}
